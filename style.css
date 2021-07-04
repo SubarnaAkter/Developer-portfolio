@@ -44,8 +44,8 @@ h1{
 .div-style{
     width:40%;
     box-shadow:10px 10px 40px grey;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
     border-radius: 10px;
     padding-left:20px;
     
@@ -64,7 +64,13 @@ h1{
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
+    
 }
 footer p{
     text-align: center;
+    
+}
+span{
+    color:tomato;
+    font-weight:bold;
 }
