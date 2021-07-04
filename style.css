@@ -13,7 +13,7 @@ h1{
 .half{
     width:50%;
     padding-left:5%;
-    margin-bottom: 100px;
+   
     padding-right: 10px;
 }
 .half img{
@@ -21,8 +21,9 @@ h1{
     padding-top:35px;
   
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
    
 }
 .link-button{
@@ -39,4 +40,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
- }
+}
+.div-style{
+    width:40%;
+    box-shadow:10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left:20px;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:  left;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(150, 28, 14),tomato);
+    border-image-slice: 1;
+}
+#baby-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
